@@ -18,18 +18,22 @@ function checkPosition(){
 	var navs = document.getElementsByClassName("nav-item");
 		
 	//Clear Old style
-	for(var i=0;i<navs.length;i++){navs[i].style.borderBottom="0px solid silver";}
+	for(var i=0;i<navs.length;i++){navs[i].style.borderBottom="0px solid silver";navs[i].style.opacity="0.8";}
 
 	//Set New style
 	var style = "2px solid gainsboro";
 	if(window.pageYOffset<works.offsetTop){
 		document.getElementById("nav-item-home").style.borderBottom=style;
+		document.getElementById("nav-item-home").style.opacity="1";
 	}else if(window.pageYOffset>=works.offsetTop-300 && window.pageYOffset<tips.offsetTop-300){
 		document.getElementById("nav-item-works").style.borderBottom=style;
+		document.getElementById("nav-item-works").style.opacity="1";
 	}else if(window.pageYOffset>=tips.offsetTop-300 && window.pageYOffset<about.offsetTop-300){
-		document.getElementById("nav-item-tips").style.borderBottom=style;	
+		document.getElementById("nav-item-tips").style.borderBottom=style;
+		document.getElementById("nav-item-tips").style.opacity="1";
 	}else if(window.pageYOffset>=about.offsetTop-300){
 		document.getElementById("nav-item-about").style.borderBottom=style;
+		document.getElementById("nav-item-about").style.opacity="1";
 	}
 
 	//Set animation for connectionIcons

@@ -19,6 +19,7 @@ nav{
 	text-decoration: none;
 	color: white;
 	padding: 15px;
+	opacity: 0.8;
 }
 .nav-item:hover{
 	background-color: grey;
