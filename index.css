@@ -29,11 +29,13 @@ nav{
 	padding:50px 0 50px 0;
 }
 #content-home{
-	background:linear-gradient(to bottom, rgb(10, 10, 10), black);	
+	background:linear-gradient(to bottom, rgb(10, 10, 10), black);
+	background-image: url("images/background.jpg");	
+	background-size:cover;
 	color:white;
 	display:flex;
 	flex-direction:column;
-	padding:100px;
+	padding:50px 100px 100px 100px;
 }
 #content-works{
 	background:linear-gradient(to bottom,whitesmoke, gainsboro);
