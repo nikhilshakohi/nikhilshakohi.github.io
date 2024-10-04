@@ -32,7 +32,10 @@ var connections='['+
 ']';
 
 var projects='['+
-	'{"name":"facebookClone", "heading":"Facebook Clone", "content": " - A Facebook Clone site developed using React JS hosted in Firebase.<br> - One can signup, login and add posts with/without Images.<br> - Mobile Friendly Interface with light/dark modes.<br> - Login, Signup, Validations and Home page dashboard are added.", '+
+	'{"name": "streaker","heading": "Streaker","content": " - A simple streak tracker developed using the T3-Stack.<br> - Features include task tracking with streak functionality.<br> - The UI is built with Next.js and DaisyUI.<br> - The database is managed using Prisma and Supabase.<br> - Hosted on Vercel.",'+
+    '"link": "https://streaker-tau.vercel.app","githubLink": "https://github.com/nikhilshakohi/streaker","date": "04 Oct 2024 at 10:00","languages": "Next.js, DaisyUI, Prisma, Supabase","contentID": "site9"},'+
+
+	'{"name":"facebookClone", "heading":"Facebook Clone", "content": " - A Facebook Clone site developed using React JS hosted in Firebase.<br> - One can signup, login and add posts with/without Images.<br> - Mobile Friendly Interface with light/dark modes.<br> - Login, Signup, Validations and Home page dashboard are added.", ' +
 	'"link":"https://facebook-clone-96246.web.app/", "githubLink":"https://github.com/nikhilshakohi/facebookClone", "date":"24 Aug 2022 at 00:07", "languages":"React JS, Firebase, react-icons", "contentID":"site8"},'+
 
 	'{"name":"diary", "heading":"Personal Diary", "content": " - This is a Personal Diary developed using React JS, Material UI and hosted using Firebase.<br> - One can signup or login using email/google authentication.<br> - Mobile Friendly Interface with light/dark modes.<br> - Content can be edited/deleted.", '+
